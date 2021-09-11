@@ -1,0 +1,235 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+body{
+    overflow-x:hidden;
+}
+
+.container{ 
+	display: flex;
+	width: 99vw;
+	height: 100%;
+	justify-content: space-between;  
+	padding: 2px;
+
+}
+
+.profile{
+	width: 26vw;
+	border-radius: 20px 0 0 20px;
+	background: #555;
+	border-right: 1px solid #777 ;
+	display: flex; 
+	flex-flow: column; 
+	justify-content: space-around;
+	color: #fff;
+	position: fixed;
+	top: 5px;
+	left: 5px;
+	bottom: 5px;
+
+}  
+.picture{
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	align-self: center;  
+	background-image: url('images/machinarium-wallpaper.jpg');
+	background-size: 1000px ;  
+	background-position: -260px -60px;
+
+}
+.name{
+	align-self: center;
+	font-size: 36px;
+}
+.info{
+	align-self: center;
+	align-items: baseline;
+	margin: 30px 0 20px 0;
+} 
+.heart{
+	margin-top: 5px;
+}
+.social{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 30px 10px 30px;
+}
+
+.soc_grp{
+	height: 40px;
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat{
+	width: 72vw;
+	border: 2px solid #555;
+	border-radius: 0 20px 20px 0;
+}
+
+.chat{
+	display: flex; 
+	flex-flow: column; 
+	justify-content: flex-end;  
+	min-height: calc(100vh - 15px);
+	margin-left: 27vw;
+	margin-top: 3px;
+
+}
+
+.conversation{
+	display: flex;
+	/*border: 2px solid black; */
+	margin: 10px;
+	margin-left: 15px; 
+	flex-flow: column; 
+	font-size: 18px;
+	color: #fff;
+}
+
+.reply_grp{
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+}
+
+.reply{
+	border: 1px solid #555;
+	align-self: flex-end; 
+	padding: 10px;
+	border-radius: 5px;
+	background: #555;
+
+}
+
+.reply_pic{
+	height: 20px;
+	width: 18px;
+	border-radius: 50%;
+	align-self: flex-end;
+	padding: 10px;
+	margin-left: 5px;
+	background-image: url('images/machinarium-wallpaper.jpg');
+	background-size: 200px ;  
+	background-position: -258px -125px;
+
+}
+
+.message{
+	border: 1px solid #03a9f4;
+	padding: 10px;
+	align-self: flex-start;
+	border-radius: 5px;
+	background: #03a9f4;
+}
+
+
+
+
+
+
+
+.input_submit_container{
+	display: flex; 
+
+}
+.inputbox{
+	/*border: 1px solid black;*/
+	flex-grow: 1;
+	margin: 10px;
+	margin-left: 15px;
+
+
+
+
+ }
+ .input{
+ 	padding: 10px;
+ 	height: 17px;
+ 	width: 98%;
+ 	font-size: 16px; 
+ 	border-radius: 5px 0 0 5px;
+ 	border: 1px solid #333;
+ }
+
+ .input:focus {
+    outline: none;
+    border: 1px solid #03a9f4;
+	box-shadow: 1px 1px 2px #8fb4db;
+    color: #333;
+}
+
+ .buttonbox{
+ 	/*border: 1px solid black;  */
+ 	width: 80px;  
+ 	margin: 10px 15px 10px 5px;
+
+
+
+
+ }
+.button{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	font-size: 16px; 
+	color: #333;
+	border-radius: 0 5px 5px 0;
+	transition: 0.5s;
+	border: 1px solid #333;
+}
+
+.button:hover{
+	transform: translateY(-5px);
+	color: #03a9f4;
+	border-radius: 5px;   
+	border-width: 1px;
+	border-color: #03a9f4;
+} 
